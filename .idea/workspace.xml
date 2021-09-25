@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="" />
+    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Adress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/message-properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tec-assistance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tec-assistance.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,20 +30,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -42,8 +49,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.edu.dw2.tecassistance.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application">
@@ -75,5 +90,17 @@
       <updated>1631974299362</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
