@@ -1,5 +1,6 @@
 package br.edu.dw2.tecassistance.service;
 
+import br.edu.dw2.tecassistance.model.Adress;
 import br.edu.dw2.tecassistance.model.Customer;
 import br.edu.dw2.tecassistance.repository.CustomerRepository;
 import java.util.List;
@@ -41,6 +42,14 @@ public class CustomerService {
     public Customer updateCustomer(Long id, Customer customer) {
         Customer savedCostumer = getCustomerById(id);
         BeanUtils.copyProperties(customer, savedCostumer, "id");
+        return customerRepository.save(savedCostumer);
+    }
+
+    public Customer updateCustomerAdress(Long id, Adress adress) {
+        Customer savedCostumer = getCustomerById(id);
+        if(savedCostumer != null){
+            savedCostumer.setAdress(adress);
+        }
         return customerRepository.save(savedCostumer);
     }
 

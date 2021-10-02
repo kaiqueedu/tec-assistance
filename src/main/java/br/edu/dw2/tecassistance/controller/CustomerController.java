@@ -1,9 +1,9 @@
 package br.edu.dw2.tecassistance.controller;
 
+import br.edu.dw2.tecassistance.model.Adress;
 import br.edu.dw2.tecassistance.model.Customer;
 import br.edu.dw2.tecassistance.service.CustomerService;
 import java.util.List;
-import java.util.Optional;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,6 +55,12 @@ public class CustomerController {
     @PutMapping("/{id}")
     public ResponseEntity<Customer> updateCustomer(@PathVariable Long id, @Valid @RequestBody Customer customer){
         Customer savedCustomer = customerService.updateCustomer(id, customer);
+        return ResponseEntity.ok(savedCustomer);
+    }
+
+    @PutMapping("/{id}/adress")
+    public ResponseEntity<Customer> updateCustomerAdress(@PathVariable Long id, @Valid @RequestBody Adress adress){
+        Customer savedCustomer = customerService.updateCustomerAdress(id, adress);
         return ResponseEntity.ok(savedCustomer);
     }
 
