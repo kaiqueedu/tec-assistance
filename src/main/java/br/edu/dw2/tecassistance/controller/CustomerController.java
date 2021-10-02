@@ -3,6 +3,7 @@ package br.edu.dw2.tecassistance.controller;
 import br.edu.dw2.tecassistance.model.Customer;
 import br.edu.dw2.tecassistance.service.CustomerService;
 import java.util.List;
+import java.util.Optional;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,8 +32,12 @@ public class CustomerController {
     }
 
     @GetMapping("/{id}")
-    public Customer findCustomerById(@PathVariable(value = "id" ) long id ){
-        return customerService.findById(id);
+    public ResponseEntity<Customer> findCustomerById(@PathVariable(value = "id" ) long id ){
+        Customer customer = customerService.findById(id);
+        if(customer == null){
+            return ResponseEntity.ok(customer);
+        }
+        return ResponseEntity.notFound().build();
     }
 
     @PostMapping

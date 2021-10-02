@@ -5,6 +5,7 @@ import br.edu.dw2.tecassistance.repository.CustomerRepository;
 import java.util.List;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -32,14 +33,21 @@ public class CustomerService {
     }
 
     public void updateActiveProperty(Long id, Boolean active) {
-        Customer savedCustomer = findById(id);
-        savedCustomer.setActive(active);
-        customerRepository.save(savedCustomer);
+        Customer costumer = getCustomerById(id);
+        costumer.setActive(active);
+        customerRepository.save(costumer);
     }
 
     public Customer updateCustomer(Long id, Customer customer) {
-        Customer savedCostumer = customerRepository.findById(id).orElse(null);
+        Customer savedCostumer = getCustomerById(id);
         BeanUtils.copyProperties(customer, savedCostumer, "id");
         return customerRepository.save(savedCostumer);
     }
+
+    private Customer getCustomerById(Long id){
+        Customer savedCostumer = customerRepository.findById(id).orElseThrow(
+                () -> new EmptyResultDataAccessException(1));
+        return savedCostumer;
+    }
+
 }

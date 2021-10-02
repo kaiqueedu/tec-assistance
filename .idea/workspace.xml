@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Adress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message-properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_7_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/exceptions/CustomerNotFoundOrInactiveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message-properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler$Erro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler$Erro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/exceptionhandler/TecAssistanceExceptionHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/CustomerService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tec-assistance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tec-assistance.iml" afterDir="false" />
@@ -39,7 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1yJeobfD4Tk6LJBe3fmyRLRlSmp" />
   <component name="ProjectViewState">
@@ -49,8 +56,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -58,6 +65,13 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.dw2.tecassistance.service.exceptions" />
+      <recent name="br.edu.dw2.tecassistance.exceptionhandler" />
     </key>
   </component>
   <component name="RunManager">
