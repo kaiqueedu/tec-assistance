@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="Atividade 6">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_7_7_3.xml" beforeDir="false" />
+    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="Atividade 5 - ajustes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/enums/StatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/PaymentMethodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/PaymentMethodService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tec-assistance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tec-assistance.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../controle-servico" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -58,6 +62,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.dw2.tecassistance.service" />
+      <recent name="br.edu.dw2.tecassistance.repository" />
       <recent name="br.edu.dw2.tecassistance.service.exceptions" />
       <recent name="br.edu.dw2.tecassistance.exceptionhandler" />
     </key>
@@ -98,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633136215737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atividade 5 - ajustes">
+      <created>1633188509557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633188509557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atividade 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade 6" />
+    <MESSAGE value="Atividade 5 - ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade 5 - ajustes" />
   </component>
 </project>
