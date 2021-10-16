@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="Atividade 5 - ajustes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/enums/StatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/PaymentMethodRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/PaymentMethodService.java" afterDir="false" />
+    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="Atividade 6">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/OAuthSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/PaymentMethodController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tec-assistance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tec-assistance.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +53,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../controle-servico" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.edu.dw2.tecassistance.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.dw2.tecassistance.controller" />
       <recent name="br.edu.dw2.tecassistance.service" />
       <recent name="br.edu.dw2.tecassistance.repository" />
       <recent name="br.edu.dw2.tecassistance.service.exceptions" />
@@ -111,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633188509557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Atividade 6">
+      <created>1633919303916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633919303916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,8 +140,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Atividade 6" />
     <MESSAGE value="Atividade 5 - ajustes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade 5 - ajustes" />
+    <MESSAGE value="Atividade 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade 6" />
   </component>
 </project>

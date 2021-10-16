@@ -13,6 +13,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.NotNull;
 
 @Entity
@@ -37,6 +38,11 @@ public class Order {
     @ManyToOne
     @JoinColumn(name = "customer_id")
     private Customer customer;
+
+    @OneToOne
+    @JoinColumn(name = "paymentMethod_id")
+    private PaymentMethod paymentMethod;
+
 
     @NotNull
     @Enumerated(EnumType.STRING)
@@ -120,5 +126,13 @@ public class Order {
 
     public void setStatus(StatusEnum status) {
         this.status = status;
+    }
+
+    public PaymentMethod getPaymentMethod() {
+        return paymentMethod;
+    }
+
+    public void setPaymentMethod(PaymentMethod paymentMethod) {
+        this.paymentMethod = paymentMethod;
     }
 }
