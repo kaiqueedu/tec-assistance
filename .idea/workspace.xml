@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="Atividade 6">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/OAuthSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/PaymentMethodController.java" afterDir="false" />
+    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="Atividade 7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/cors/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/CustomerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/security/AppUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/token/RefreshTokenPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/token/RefrshTokenCookiePreProcessorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/util/PasswordGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tec-assistance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tec-assistance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +61,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="br.edu.dw2.tecassistance.controller" />
-      <recent name="br.edu.dw2.tecassistance.service" />
+      <recent name="br.edu.dw2.tecassistance.util" />
       <recent name="br.edu.dw2.tecassistance.repository" />
-      <recent name="br.edu.dw2.tecassistance.service.exceptions" />
-      <recent name="br.edu.dw2.tecassistance.exceptionhandler" />
+      <recent name="br.edu.dw2.tecassistance.controller" />
+      <recent name="br.edu.dw2.tecassistance.security" />
+      <recent name="br.edu.dw2.tecassistance.model" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633919303916</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atividade 7">
+      <created>1634351272348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634351272348</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Atividade 7">
+      <created>1634351300860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634351300860</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atividade 5 - ajustes" />
     <MESSAGE value="Atividade 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade 6" />
+    <MESSAGE value="Atividade 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade 7" />
   </component>
 </project>
