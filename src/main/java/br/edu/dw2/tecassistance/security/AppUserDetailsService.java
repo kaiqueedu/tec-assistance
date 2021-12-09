@@ -1,7 +1,7 @@
 package br.edu.dw2.tecassistance.security;
 
-import br.edu.dw2.tecassistance.model.CustomerUser;
-import br.edu.dw2.tecassistance.repository.CustomerUserRepository;
+import br.edu.dw2.tecassistance.model.Usuario;
+import br.edu.dw2.tecassistance.repository.UsuarioRepository;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Optional;
@@ -20,18 +20,18 @@ import org.springframework.stereotype.Service;
 public class AppUserDetailsService implements UserDetailsService{
 
 	@Autowired
-	private CustomerUserRepository userRepository;
+	private UsuarioRepository userRepository;
 
 	@Override
 	public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-		Optional<CustomerUser> userOptional = userRepository.findByEmail(email);
-		CustomerUser customerUser = userOptional.orElseThrow(()-> new UsernameNotFoundException("user or password invalid"));
-		return new User(email, customerUser.getPassword(), getPermissoes(customerUser));
+		Optional<Usuario> userOptional = userRepository.findByEmail(email);
+		Usuario usuario = userOptional.orElseThrow(()-> new UsernameNotFoundException("user or password invalid"));
+		return new User(email, usuario.getSenha(), getPermissoes(usuario));
 	}
 
-	private Collection<? extends GrantedAuthority> getPermissoes(CustomerUser customerUser) {
+	private Collection<? extends GrantedAuthority> getPermissoes(Usuario usuario) {
 		Set<SimpleGrantedAuthority> authorities = new HashSet<>();
-		customerUser.getPermissoes().forEach(p-> authorities.add(new SimpleGrantedAuthority(p.getDescription().toUpperCase())));
+		usuario.getPermissoes().forEach(p-> authorities.add(new SimpleGrantedAuthority(p.getDescription().toUpperCase())));
 		return authorities;
 	}
 

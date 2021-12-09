@@ -4,17 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="Atividade 7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/TokenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/cors/CorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/CustomerUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/security/AppUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/token/RefreshTokenPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/token/RefrshTokenCookiePreProcessorFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/util/PasswordGenerator.java" afterDir="false" />
+    <list default="true" id="d6192fc9-f4e2-4dc1-a0d9-cf952d34f11c" name="Changes" comment="atividade avaliativa">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/OrdemServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/FormaPagamentoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/OrdemServicoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/FormaPagamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/OrdemServicoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/ClienteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/FormaPagamentoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/OrdemServicoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Endereco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/FormaPagamento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/OrdemServico.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Permissao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/repository/ClienteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/repository/FormaPagamentoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/repository/OrdemServicoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/repository/UsuarioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/ClienteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/FormaPagamentoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/OrdemServicoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/TecAssistanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/TecAssistanceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/OrdemServicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/PaymentMethodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/FormaPagamentoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/controller/TokenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/cors/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/cors/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Adress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/CustomerUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/FormaPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/Permissao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/CustomerUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository/PaymentMethodRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/security/AppUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/security/AppUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service/PaymentMethodService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/util/PasswordGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/TecAssistanceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/TecAssistanceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/config/AuthorizationServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/config/OAuthSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/config/ResourceServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/controller/PaymentMethodController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Adress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/model/PaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/repository/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/repository/PaymentMethodRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/dw2/tecassistance/service/PaymentMethodService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tec-assistance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade_aval_2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +97,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -47,31 +112,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.edu.dw2.tecassistance.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/token" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/config" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/repository" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/dw2/tecassistance/model/enums" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="br.edu.dw2.tecassistance.util" />
+      <recent name="br.edu.dw2.tecassistance.security" />
+      <recent name="br.edu.dw2.tecassistance.cors" />
+      <recent name="br.edu.dw2.tecassistance.model" />
       <recent name="br.edu.dw2.tecassistance.repository" />
       <recent name="br.edu.dw2.tecassistance.controller" />
-      <recent name="br.edu.dw2.tecassistance.security" />
-      <recent name="br.edu.dw2.tecassistance.model" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.edu.dw2.tecassistance.TecAssistanceApplication" />
-      <module name="tec-assistance" />
+      <module name="Atividade_aval_2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634351300860</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Atividade 8">
+      <created>1635603139278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635603139278</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,12 +220,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atividade 5 - ajustes" />
     <MESSAGE value="Atividade 6" />
     <MESSAGE value="Atividade 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade 7" />
+    <MESSAGE value="Atividade 8" />
+    <MESSAGE value="atividade avaliativa" />
+    <option name="LAST_COMMIT_MESSAGE" value="atividade avaliativa" />
   </component>
 </project>

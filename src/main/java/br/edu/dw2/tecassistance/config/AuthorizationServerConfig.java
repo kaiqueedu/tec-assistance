@@ -24,10 +24,11 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	public void configure(ClientDetailsServiceConfigurer clients) throws Exception{
 		clients.inMemory()
 		.withClient("client")
-		.secret("client")
+		.secret("$2a$10$f.yKGdqWDD2pSbVHxzXrh.3umI6pPRQ/D30yIMIrT4aHaZO.xBmTK")
 		.scopes("read","write")
-		.authorizedGrantTypes("password")
-		.accessTokenValiditySeconds(1800);
+		.authorizedGrantTypes("password", "refresh_token")
+		.accessTokenValiditySeconds(1800)
+		.refreshTokenValiditySeconds(3600*24);
 	}
 	
 	@Override
